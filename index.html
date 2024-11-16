@@ -10,7 +10,7 @@
         content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true"/>
 
   <!--https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html-->
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="format-detection" content="telephone=no">
 
@@ -45,25 +45,25 @@
   
 
 <!-- Polyfills bundle. -->
-
-<script src="./src/polyfills.bundle.js" charset="utf-8"> </script>
+<base href="https://miibow.github.io/WhoseMemory.github.io/">
+<script src="/WhoseMemory.github.io/src/polyfills.bundle.js" charset="utf-8"> </script>
 
 
 <!-- SystemJS support. -->
-<script src="./src/system.bundle.js" charset="utf-8"> </script>
+<script src="/WhoseMemory.github.io/src/system.bundle.js" charset="utf-8"> </script>
 
 <!-- Import map -->
 <!-- <script src="./src/import-map.json" type="systemjs-importmap" charset="utf-8"> </script> -->
 <script type="systemjs-importmap" charset="utf-8">
 {
   "imports": {
-    "cc": "./cocos-js/cc.js"
+    "cc": "/WhoseMemory.github.io//cocos-js/cc.js"
   }
 }
 </script>
 
 <script>
-    System.import('./index.js').catch(function(err) { console.error(err); })
+    System.import('/WhoseMemory.github.io/index.js').catch(function(err) { console.error(err); })
 </script>
 
 </body>
