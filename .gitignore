@@ -1,0 +1,60 @@
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 忽略日志文件和临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.pid
+
+# 忽略 Node.js 的依赖包
+node_modules/
+
+# 忽略 Cocos Creator 构建目录和导出的项目
+build/
+library/
+temp/
+local/
+settings/
+
+# 忽略用户特定的 Cocos Creator 配置
+*.fire.meta
+*.prefab.meta
+*.scene.meta
+*.material.meta
+
+# 忽略 Cocos Creator 项目中自动生成的脚本和插件缓存
+assets/**/*.meta
+extensions/**/.meta
+internal/
+
+# 忽略预览服务的临时文件
+.preview/
+
+# 忽略 VSCode 和 WebStorm 的工作空间文件
+.vscode/
+.idea/
+*.code-workspace
+
+# 忽略 macOS 和 Linux 用户可能生成的文件
+*.swp
+*.swo
+
+# 忽略 Git 本地配置
+.git/
+
+# 忽略其他 IDE 相关文件
+*.iml
+out/
+*.class
+*.jar
+
+# 忽略发布的 web-mobile 项目输出
+public/
+
+# 如果你有特定需要的忽略项，加入到这里
+# ...
